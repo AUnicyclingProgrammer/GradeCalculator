@@ -23,9 +23,21 @@
       <height>416</height>
      </rect>
     </property>
+    <property name="minimumSize">
+     <size>
+      <width>343</width>
+      <height>416</height>
+     </size>
+    </property>
     <layout class="QVBoxLayout" name="hwVertLayout">
      <item>
       <widget class="QLabel" name="hwLabel">
+       <property name="minimumSize">
+        <size>
+         <width>341</width>
+         <height>24</height>
+        </size>
+       </property>
        <property name="font">
         <font>
          <pointsize>16</pointsize>
@@ -44,16 +56,35 @@
       <layout class="QHBoxLayout" name="hw1HorizLayout">
        <item>
         <widget class="QLabel" name="hw1Label">
+         <property name="minimumSize">
+          <size>
+           <width>109</width>
+           <height>31</height>
+          </size>
+         </property>
          <property name="text">
           <string>Homework 1</string>
          </property>
         </widget>
        </item>
        <item>
-        <widget class="QDoubleSpinBox" name="hw1DoubleSpinBox"/>
+        <widget class="QDoubleSpinBox" name="hw1DoubleSpinBox">
+         <property name="minimumSize">
+          <size>
+           <width>109</width>
+           <height>31</height>
+          </size>
+         </property>
+        </widget>
        </item>
        <item>
         <widget class="QCheckBox" name="hw1CheckBox">
+         <property name="minimumSize">
+          <size>
+           <width>109</width>
+           <height>21</height>
+          </size>
+         </property>
          <property name="text">
           <string>Graded</string>
          </property>
@@ -65,16 +96,35 @@
       <layout class="QHBoxLayout" name="hw2HorizLayout">
        <item>
         <widget class="QLabel" name="hw2Label">
+         <property name="minimumSize">
+          <size>
+           <width>109</width>
+           <height>31</height>
+          </size>
+         </property>
          <property name="text">
           <string>Homework 2</string>
          </property>
         </widget>
        </item>
        <item>
-        <widget class="QDoubleSpinBox" name="hw2DoubleSpinBox_2"/>
+        <widget class="QDoubleSpinBox" name="hw2DoubleSpinBox_2">
+         <property name="minimumSize">
+          <size>
+           <width>109</width>
+           <height>31</height>
+          </size>
+         </property>
+        </widget>
        </item>
        <item>
         <widget class="QCheckBox" name="hw2CheckBox">
+         <property name="minimumSize">
+          <size>
+           <width>109</width>
+           <height>21</height>
+          </size>
+         </property>
          <property name="text">
           <string>Graded</string>
          </property>
@@ -86,16 +136,35 @@
       <layout class="QHBoxLayout" name="hw3HorizLayout">
        <item>
         <widget class="QLabel" name="hw3Label">
+         <property name="minimumSize">
+          <size>
+           <width>109</width>
+           <height>31</height>
+          </size>
+         </property>
          <property name="text">
           <string>Homework 3</string>
          </property>
         </widget>
        </item>
        <item>
-        <widget class="QDoubleSpinBox" name="hw2DoubleSpinBox"/>
+        <widget class="QDoubleSpinBox" name="hw2DoubleSpinBox">
+         <property name="minimumSize">
+          <size>
+           <width>109</width>
+           <height>31</height>
+          </size>
+         </property>
+        </widget>
        </item>
        <item>
         <widget class="QCheckBox" name="hw3CheckBox">
+         <property name="minimumSize">
+          <size>
+           <width>109</width>
+           <height>21</height>
+          </size>
+         </property>
          <property name="text">
           <string>Graded</string>
          </property>
@@ -107,16 +176,35 @@
       <layout class="QHBoxLayout" name="hw4HorizLayout">
        <item>
         <widget class="QLabel" name="hw4Label">
+         <property name="minimumSize">
+          <size>
+           <width>109</width>
+           <height>31</height>
+          </size>
+         </property>
          <property name="text">
           <string>Homework 4</string>
          </property>
         </widget>
        </item>
        <item>
-        <widget class="QDoubleSpinBox" name="hw4DoubleSpinBox"/>
+        <widget class="QDoubleSpinBox" name="hw4DoubleSpinBox">
+         <property name="minimumSize">
+          <size>
+           <width>109</width>
+           <height>31</height>
+          </size>
+         </property>
+        </widget>
        </item>
        <item>
         <widget class="QCheckBox" name="hw4CheckBox">
+         <property name="minimumSize">
+          <size>
+           <width>109</width>
+           <height>21</height>
+          </size>
+         </property>
          <property name="text">
           <string>Graded</string>
          </property>
@@ -128,16 +216,35 @@
       <layout class="QHBoxLayout" name="hw5HorizLayout">
        <item>
         <widget class="QLabel" name="hw5Label">
+         <property name="minimumSize">
+          <size>
+           <width>109</width>
+           <height>31</height>
+          </size>
+         </property>
          <property name="text">
           <string>Homework 5</string>
          </property>
         </widget>
        </item>
        <item>
-        <widget class="QDoubleSpinBox" name="hw5DoubleSpinBox"/>
+        <widget class="QDoubleSpinBox" name="hw5DoubleSpinBox">
+         <property name="minimumSize">
+          <size>
+           <width>109</width>
+           <height>31</height>
+          </size>
+         </property>
+        </widget>
        </item>
        <item>
         <widget class="QCheckBox" name="hw5CheckBox">
+         <property name="minimumSize">
+          <size>
+           <width>109</width>
+           <height>21</height>
+          </size>
+         </property>
          <property name="text">
           <string>Graded</string>
          </property>
@@ -149,16 +256,35 @@
       <layout class="QHBoxLayout" name="hw6HorizLayout">
        <item>
         <widget class="QLabel" name="hw6Label">
+         <property name="minimumSize">
+          <size>
+           <width>109</width>
+           <height>31</height>
+          </size>
+         </property>
          <property name="text">
           <string>Homework 6</string>
          </property>
         </widget>
        </item>
        <item>
-        <widget class="QDoubleSpinBox" name="hw6DoubleSpinBox"/>
+        <widget class="QDoubleSpinBox" name="hw6DoubleSpinBox">
+         <property name="minimumSize">
+          <size>
+           <width>109</width>
+           <height>31</height>
+          </size>
+         </property>
+        </widget>
        </item>
        <item>
         <widget class="QCheckBox" name="hw6CheckBox">
+         <property name="minimumSize">
+          <size>
+           <width>109</width>
+           <height>21</height>
+          </size>
+         </property>
          <property name="text">
           <string>Graded</string>
          </property>
@@ -170,16 +296,35 @@
       <layout class="QHBoxLayout" name="hw7HorizLayout">
        <item>
         <widget class="QLabel" name="hw7Label">
+         <property name="minimumSize">
+          <size>
+           <width>109</width>
+           <height>31</height>
+          </size>
+         </property>
          <property name="text">
           <string>Homework 7</string>
          </property>
         </widget>
        </item>
        <item>
-        <widget class="QDoubleSpinBox" name="hw7DoubleSpinBox"/>
+        <widget class="QDoubleSpinBox" name="hw7DoubleSpinBox">
+         <property name="minimumSize">
+          <size>
+           <width>109</width>
+           <height>31</height>
+          </size>
+         </property>
+        </widget>
        </item>
        <item>
         <widget class="QCheckBox" name="hw7CheckBox">
+         <property name="minimumSize">
+          <size>
+           <width>109</width>
+           <height>21</height>
+          </size>
+         </property>
          <property name="text">
           <string>Graded</string>
          </property>
@@ -191,16 +336,35 @@
       <layout class="QHBoxLayout" name="hw8HorizLayout">
        <item>
         <widget class="QLabel" name="hw8Label">
+         <property name="minimumSize">
+          <size>
+           <width>109</width>
+           <height>31</height>
+          </size>
+         </property>
          <property name="text">
           <string>Homework 8</string>
          </property>
         </widget>
        </item>
        <item>
-        <widget class="QDoubleSpinBox" name="hw8DoubleSpinBox"/>
+        <widget class="QDoubleSpinBox" name="hw8DoubleSpinBox">
+         <property name="minimumSize">
+          <size>
+           <width>109</width>
+           <height>31</height>
+          </size>
+         </property>
+        </widget>
        </item>
        <item>
         <widget class="QCheckBox" name="hw8CheckBox">
+         <property name="minimumSize">
+          <size>
+           <width>109</width>
+           <height>21</height>
+          </size>
+         </property>
          <property name="text">
           <string>Graded</string>
          </property>
@@ -212,16 +376,35 @@
       <layout class="QHBoxLayout" name="hw9HorizLayout">
        <item>
         <widget class="QLabel" name="hw9Label">
+         <property name="minimumSize">
+          <size>
+           <width>109</width>
+           <height>31</height>
+          </size>
+         </property>
          <property name="text">
           <string>Homework 9</string>
          </property>
         </widget>
        </item>
        <item>
-        <widget class="QDoubleSpinBox" name="hw9DoubleSpinBox"/>
+        <widget class="QDoubleSpinBox" name="hw9DoubleSpinBox">
+         <property name="minimumSize">
+          <size>
+           <width>109</width>
+           <height>31</height>
+          </size>
+         </property>
+        </widget>
        </item>
        <item>
         <widget class="QCheckBox" name="hw9CheckBox">
+         <property name="minimumSize">
+          <size>
+           <width>109</width>
+           <height>21</height>
+          </size>
+         </property>
          <property name="text">
           <string>Graded</string>
          </property>
@@ -233,16 +416,35 @@
       <layout class="QHBoxLayout" name="hw10HorizLayout">
        <item>
         <widget class="QLabel" name="hw10Label">
+         <property name="minimumSize">
+          <size>
+           <width>109</width>
+           <height>31</height>
+          </size>
+         </property>
          <property name="text">
           <string>Homework 10</string>
          </property>
         </widget>
        </item>
        <item>
-        <widget class="QDoubleSpinBox" name="hw10DoubleSpinBox"/>
+        <widget class="QDoubleSpinBox" name="hw10DoubleSpinBox">
+         <property name="minimumSize">
+          <size>
+           <width>109</width>
+           <height>31</height>
+          </size>
+         </property>
+        </widget>
        </item>
        <item>
         <widget class="QCheckBox" name="hw10CheckBox">
+         <property name="minimumSize">
+          <size>
+           <width>109</width>
+           <height>21</height>
+          </size>
+         </property>
          <property name="text">
           <string>Graded</string>
          </property>
@@ -261,9 +463,21 @@
       <height>416</height>
      </rect>
     </property>
+    <property name="minimumSize">
+     <size>
+      <width>343</width>
+      <height>416</height>
+     </size>
+    </property>
     <layout class="QVBoxLayout" name="vertLayout2">
      <item>
       <widget class="QLabel" name="projectsLabel">
+       <property name="minimumSize">
+        <size>
+         <width>341</width>
+         <height>54</height>
+        </size>
+       </property>
        <property name="font">
         <font>
          <pointsize>16</pointsize>
@@ -282,16 +496,35 @@
       <layout class="QHBoxLayout" name="projHorizLayout">
        <item>
         <widget class="QLabel" name="projLabel">
+         <property name="minimumSize">
+          <size>
+           <width>113</width>
+           <height>52</height>
+          </size>
+         </property>
          <property name="text">
           <string>Project Proposal</string>
          </property>
         </widget>
        </item>
        <item>
-        <widget class="QDoubleSpinBox" name="projDoubleSpinBox"/>
+        <widget class="QDoubleSpinBox" name="projDoubleSpinBox">
+         <property name="minimumSize">
+          <size>
+           <width>107</width>
+           <height>31</height>
+          </size>
+         </property>
+        </widget>
        </item>
        <item>
         <widget class="QCheckBox" name="projCheckBox">
+         <property name="minimumSize">
+          <size>
+           <width>107</width>
+           <height>21</height>
+          </size>
+         </property>
          <property name="text">
           <string>Graded</string>
          </property>
@@ -303,16 +536,35 @@
       <layout class="QHBoxLayout" name="assign1HorizLayout">
        <item>
         <widget class="QLabel" name="assign1Label">
+         <property name="minimumSize">
+          <size>
+           <width>109</width>
+           <height>52</height>
+          </size>
+         </property>
          <property name="text">
           <string>Assignment 1</string>
          </property>
         </widget>
        </item>
        <item>
-        <widget class="QDoubleSpinBox" name="assign1DoubleSpinBox"/>
+        <widget class="QDoubleSpinBox" name="assign1DoubleSpinBox">
+         <property name="minimumSize">
+          <size>
+           <width>109</width>
+           <height>31</height>
+          </size>
+         </property>
+        </widget>
        </item>
        <item>
         <widget class="QCheckBox" name="assign1CheckBox">
+         <property name="minimumSize">
+          <size>
+           <width>109</width>
+           <height>21</height>
+          </size>
+         </property>
          <property name="text">
           <string>Graded</string>
          </property>
@@ -324,16 +576,35 @@
       <layout class="QHBoxLayout" name="assign2HorizLayout">
        <item>
         <widget class="QLabel" name="assign2Label_">
+         <property name="minimumSize">
+          <size>
+           <width>109</width>
+           <height>52</height>
+          </size>
+         </property>
          <property name="text">
           <string>Assignment 2</string>
          </property>
         </widget>
        </item>
        <item>
-        <widget class="QDoubleSpinBox" name="assign2DoubleSpinBox"/>
+        <widget class="QDoubleSpinBox" name="assign2DoubleSpinBox">
+         <property name="minimumSize">
+          <size>
+           <width>109</width>
+           <height>31</height>
+          </size>
+         </property>
+        </widget>
        </item>
        <item>
         <widget class="QCheckBox" name="assign2CheckBox">
+         <property name="minimumSize">
+          <size>
+           <width>109</width>
+           <height>21</height>
+          </size>
+         </property>
          <property name="text">
           <string>Graded</string>
          </property>
@@ -345,16 +616,35 @@
       <layout class="QHBoxLayout" name="assign3HorizLayout">
        <item>
         <widget class="QLabel" name="assign3Label">
+         <property name="minimumSize">
+          <size>
+           <width>109</width>
+           <height>52</height>
+          </size>
+         </property>
          <property name="text">
           <string>Assignment 3</string>
          </property>
         </widget>
        </item>
        <item>
-        <widget class="QDoubleSpinBox" name="assign3DoubleSpinBox"/>
+        <widget class="QDoubleSpinBox" name="assign3DoubleSpinBox">
+         <property name="minimumSize">
+          <size>
+           <width>109</width>
+           <height>31</height>
+          </size>
+         </property>
+        </widget>
        </item>
        <item>
         <widget class="QCheckBox" name="assign3CheckBox">
+         <property name="minimumSize">
+          <size>
+           <width>109</width>
+           <height>21</height>
+          </size>
+         </property>
          <property name="text">
           <string>Graded</string>
          </property>
@@ -366,16 +656,35 @@
       <layout class="QHBoxLayout" name="midProjHorizLayout">
        <item>
         <widget class="QLabel" name="midProjLabel">
+         <property name="minimumSize">
+          <size>
+           <width>111</width>
+           <height>52</height>
+          </size>
+         </property>
          <property name="text">
           <string>Midterm Project</string>
          </property>
         </widget>
        </item>
        <item>
-        <widget class="QDoubleSpinBox" name="midProjDoubleSpinBox"/>
+        <widget class="QDoubleSpinBox" name="midProjDoubleSpinBox">
+         <property name="minimumSize">
+          <size>
+           <width>108</width>
+           <height>31</height>
+          </size>
+         </property>
+        </widget>
        </item>
        <item>
         <widget class="QCheckBox" name="midProjCheckBox">
+         <property name="minimumSize">
+          <size>
+           <width>108</width>
+           <height>21</height>
+          </size>
+         </property>
          <property name="text">
           <string>Graded</string>
          </property>
@@ -387,16 +696,35 @@
       <layout class="QHBoxLayout" name="finalProjHorizLayout">
        <item>
         <widget class="QLabel" name="finalProjLabel">
+         <property name="minimumSize">
+          <size>
+           <width>109</width>
+           <height>52</height>
+          </size>
+         </property>
          <property name="text">
           <string>Final Project</string>
          </property>
         </widget>
        </item>
        <item>
-        <widget class="QDoubleSpinBox" name="finalProjDoubleSpinBox"/>
+        <widget class="QDoubleSpinBox" name="finalProjDoubleSpinBox">
+         <property name="minimumSize">
+          <size>
+           <width>109</width>
+           <height>31</height>
+          </size>
+         </property>
+        </widget>
        </item>
        <item>
         <widget class="QCheckBox" name="finalProjCheckBox">
+         <property name="minimumSize">
+          <size>
+           <width>109</width>
+           <height>21</height>
+          </size>
+         </property>
          <property name="text">
           <string>Graded</string>
          </property>
@@ -415,9 +743,21 @@
       <height>231</height>
      </rect>
     </property>
+    <property name="minimumSize">
+     <size>
+      <width>343</width>
+      <height>231</height>
+     </size>
+    </property>
     <layout class="QVBoxLayout" name="examsVertLayout">
      <item>
       <widget class="QLabel" name="examsLabel">
+       <property name="minimumSize">
+        <size>
+         <width>341</width>
+         <height>72</height>
+        </size>
+       </property>
        <property name="font">
         <font>
          <pointsize>16</pointsize>
@@ -436,16 +776,35 @@
       <layout class="QHBoxLayout" name="exam1HorizLayout">
        <item>
         <widget class="QLabel" name="exam1Label">
+         <property name="minimumSize">
+          <size>
+           <width>109</width>
+           <height>71</height>
+          </size>
+         </property>
          <property name="text">
           <string>Exam 1</string>
          </property>
         </widget>
        </item>
        <item>
-        <widget class="QDoubleSpinBox" name="exam1DoubleSpinBox"/>
+        <widget class="QDoubleSpinBox" name="exam1DoubleSpinBox">
+         <property name="minimumSize">
+          <size>
+           <width>109</width>
+           <height>31</height>
+          </size>
+         </property>
+        </widget>
        </item>
        <item>
         <widget class="QCheckBox" name="exam1CheckBox">
+         <property name="minimumSize">
+          <size>
+           <width>109</width>
+           <height>21</height>
+          </size>
+         </property>
          <property name="text">
           <string>Graded</string>
          </property>
@@ -457,16 +816,35 @@
       <layout class="QHBoxLayout" name="exam2HorizLayout">
        <item>
         <widget class="QLabel" name="exam2Label">
+         <property name="minimumSize">
+          <size>
+           <width>109</width>
+           <height>70</height>
+          </size>
+         </property>
          <property name="text">
           <string>Exam 2</string>
          </property>
         </widget>
        </item>
        <item>
-        <widget class="QDoubleSpinBox" name="exam2DoubleSpinBox"/>
+        <widget class="QDoubleSpinBox" name="exam2DoubleSpinBox">
+         <property name="minimumSize">
+          <size>
+           <width>109</width>
+           <height>31</height>
+          </size>
+         </property>
+        </widget>
        </item>
        <item>
         <widget class="QCheckBox" name="exam2CheckBox">
+         <property name="minimumSize">
+          <size>
+           <width>109</width>
+           <height>21</height>
+          </size>
+         </property>
          <property name="text">
           <string>Graded</string>
          </property>
@@ -485,11 +863,23 @@
       <height>61</height>
      </rect>
     </property>
+    <property name="minimumSize">
+     <size>
+      <width>341</width>
+      <height>61</height>
+     </size>
+    </property>
     <layout class="QHBoxLayout" name="horizontalLayout">
      <item>
       <widget class="QLabel" name="gradeDisplayLabel">
        <property name="enabled">
         <bool>true</bool>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>167</width>
+         <height>59</height>
+        </size>
        </property>
        <property name="font">
         <font>
@@ -508,6 +898,12 @@
      </item>
      <item>
       <widget class="QLabel" name="gradePrecentLabel">
+       <property name="minimumSize">
+        <size>
+         <width>166</width>
+         <height>59</height>
+        </size>
+       </property>
        <property name="font">
         <font>
          <pointsize>16</pointsize>
@@ -532,6 +928,12 @@
       <width>121</width>
       <height>51</height>
      </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>121</width>
+      <height>51</height>
+     </size>
     </property>
     <property name="text">
      <string>Calculate Grade</string>
