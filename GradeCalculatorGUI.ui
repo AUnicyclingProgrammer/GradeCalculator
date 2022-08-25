@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1445</width>
+    <height>514</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>30</y>
+      <width>343</width>
+      <height>416</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="hwVertLayout">
+     <item>
+      <widget class="QLabel" name="hwLabel">
+       <property name="font">
+        <font>
+         <pointsize>16</pointsize>
+         <italic>true</italic>
+        </font>
+       </property>
+       <property name="layoutDirection">
+        <enum>Qt::LeftToRight</enum>
+       </property>
+       <property name="text">
+        <string>Homework</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="hw1HorizLayout">
+       <item>
+        <widget class="QLabel" name="hw1Label">
+         <property name="text">
+          <string>Homework 1</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QDoubleSpinBox" name="hw1DoubleSpinBox"/>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="hw1CheckBox">
+         <property name="text">
+          <string>Graded</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="hw2HorizLayout">
+       <item>
+        <widget class="QLabel" name="hw2Label">
+         <property name="text">
+          <string>Homework 2</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QDoubleSpinBox" name="hw2DoubleSpinBox_2"/>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="hw2CheckBox">
+         <property name="text">
+          <string>Graded</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="hw3HorizLayout">
+       <item>
+        <widget class="QLabel" name="hw3Label">
+         <property name="text">
+          <string>Homework 3</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QDoubleSpinBox" name="hw2DoubleSpinBox"/>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="hw3CheckBox">
+         <property name="text">
+          <string>Graded</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="hw4HorizLayout">
+       <item>
+        <widget class="QLabel" name="hw4Label">
+         <property name="text">
+          <string>Homework 4</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QDoubleSpinBox" name="hw4DoubleSpinBox"/>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="hw4CheckBox">
+         <property name="text">
+          <string>Graded</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="hw5HorizLayout">
+       <item>
+        <widget class="QLabel" name="hw5Label">
+         <property name="text">
+          <string>Homework 5</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QDoubleSpinBox" name="hw5DoubleSpinBox"/>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="hw5CheckBox">
+         <property name="text">
+          <string>Graded</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="hw6HorizLayout">
+       <item>
+        <widget class="QLabel" name="hw6Label">
+         <property name="text">
+          <string>Homework 6</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QDoubleSpinBox" name="hw6DoubleSpinBox"/>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="hw6CheckBox">
+         <property name="text">
+          <string>Graded</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="hw7HorizLayout">
+       <item>
+        <widget class="QLabel" name="hw7Label">
+         <property name="text">
+          <string>Homework 7</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QDoubleSpinBox" name="hw7DoubleSpinBox"/>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="hw7CheckBox">
+         <property name="text">
+          <string>Graded</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="hw8HorizLayout">
+       <item>
+        <widget class="QLabel" name="hw8Label">
+         <property name="text">
+          <string>Homework 8</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QDoubleSpinBox" name="hw8DoubleSpinBox"/>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="hw8CheckBox">
+         <property name="text">
+          <string>Graded</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="hw9HorizLayout">
+       <item>
+        <widget class="QLabel" name="hw9Label">
+         <property name="text">
+          <string>Homework 9</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QDoubleSpinBox" name="hw9DoubleSpinBox"/>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="hw9CheckBox">
+         <property name="text">
+          <string>Graded</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="hw10HorizLayout">
+       <item>
+        <widget class="QLabel" name="hw10Label">
+         <property name="text">
+          <string>Homework 10</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QDoubleSpinBox" name="hw10DoubleSpinBox"/>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="hw10CheckBox">
+         <property name="text">
+          <string>Graded</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>30</y>
+      <width>343</width>
+      <height>416</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="vertLayout2">
+     <item>
+      <widget class="QLabel" name="projectsLabel">
+       <property name="font">
+        <font>
+         <pointsize>16</pointsize>
+         <italic>true</italic>
+        </font>
+       </property>
+       <property name="layoutDirection">
+        <enum>Qt::LeftToRight</enum>
+       </property>
+       <property name="text">
+        <string>Projects</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="projHorizLayout">
+       <item>
+        <widget class="QLabel" name="projLabel">
+         <property name="text">
+          <string>Project Proposal</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QDoubleSpinBox" name="projDoubleSpinBox"/>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="projCheckBox">
+         <property name="text">
+          <string>Graded</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="assign1HorizLayout">
+       <item>
+        <widget class="QLabel" name="assign1Label">
+         <property name="text">
+          <string>Assignment 1</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QDoubleSpinBox" name="assign1DoubleSpinBox"/>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="assign1CheckBox">
+         <property name="text">
+          <string>Graded</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="assign2HorizLayout">
+       <item>
+        <widget class="QLabel" name="assign2Label_">
+         <property name="text">
+          <string>Assignment 2</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QDoubleSpinBox" name="assign2DoubleSpinBox"/>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="assign2CheckBox">
+         <property name="text">
+          <string>Graded</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="assign3HorizLayout">
+       <item>
+        <widget class="QLabel" name="assign3Label">
+         <property name="text">
+          <string>Assignment 3</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QDoubleSpinBox" name="assign3DoubleSpinBox"/>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="assign3CheckBox">
+         <property name="text">
+          <string>Graded</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="midProjHorizLayout">
+       <item>
+        <widget class="QLabel" name="midProjLabel">
+         <property name="text">
+          <string>Midterm Project</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QDoubleSpinBox" name="midProjDoubleSpinBox"/>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="midProjCheckBox">
+         <property name="text">
+          <string>Graded</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="finalProjHorizLayout">
+       <item>
+        <widget class="QLabel" name="finalProjLabel">
+         <property name="text">
+          <string>Final Project</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QDoubleSpinBox" name="finalProjDoubleSpinBox"/>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="finalProjCheckBox">
+         <property name="text">
+          <string>Graded</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_3">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>30</y>
+      <width>343</width>
+      <height>231</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="examsVertLayout">
+     <item>
+      <widget class="QLabel" name="examsLabel">
+       <property name="font">
+        <font>
+         <pointsize>16</pointsize>
+         <italic>true</italic>
+        </font>
+       </property>
+       <property name="layoutDirection">
+        <enum>Qt::LeftToRight</enum>
+       </property>
+       <property name="text">
+        <string>Exams</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="exam1HorizLayout">
+       <item>
+        <widget class="QLabel" name="exam1Label">
+         <property name="text">
+          <string>Exam 1</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QDoubleSpinBox" name="exam1DoubleSpinBox"/>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="exam1CheckBox">
+         <property name="text">
+          <string>Graded</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="exam2HorizLayout">
+       <item>
+        <widget class="QLabel" name="exam2Label">
+         <property name="text">
+          <string>Exam 2</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QDoubleSpinBox" name="exam2DoubleSpinBox"/>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="exam2CheckBox">
+         <property name="text">
+          <string>Graded</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="horizontalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>270</y>
+      <width>341</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="gradeDisplayLabel">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>28</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Num</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="gradePrecentLabel">
+       <property name="font">
+        <font>
+         <pointsize>16</pointsize>
+         <italic>true</italic>
+        </font>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="calcGradePushButton">
+    <property name="geometry">
+     <rect>
+      <x>940</x>
+      <y>340</y>
+      <width>121</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Calculate Grade</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1445</width>
+     <height>29</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
